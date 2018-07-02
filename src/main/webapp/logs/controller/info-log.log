@@ -1,0 +1,74 @@
+2018-06-30 15:58:15,934 耗时：0 日志来自：web.context.ContextLoader                日志类型: INFO  日志内容：Root WebApplicationContext: initialization started 
+2018-06-30 15:58:16,139 耗时：205 日志来自：context.support.XmlWebApplicationContext 日志类型: INFO  日志内容：Refreshing Root WebApplicationContext: startup date [Sat Jun 30 15:58:16 CST 2018]; root of context hierarchy 
+2018-06-30 15:58:16,189 耗时：255 日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [application.xml] 
+2018-06-30 15:58:16,554 耗时：620 日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [qiniu.xml] 
+2018-06-30 15:58:16,907 耗时：973 日志来自：.config.PreferencesPlaceholderConfigurer 日志类型: INFO  日志内容：Loading properties file from class path resource [jdbc.properties] 
+2018-06-30 15:58:16,920 耗时：986 日志来自：ion.AutowiredAnnotationBeanPostProcessor 日志类型: INFO  日志内容：JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-30 15:58:17,038 耗时：1104 日志来自：jdbc.datasource.DriverManagerDataSource  日志类型: INFO  日志内容：Loaded JDBC driver: com.mysql.jdbc.Driver 
+2018-06-30 15:58:17,877 耗时：1943 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/index]}" onto public java.lang.String controller.ControllerIndex.index(org.springframework.ui.Model) 
+2018-06-30 15:58:17,878 耗时：1944 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/stu],methods=[GET]}" onto public java.lang.String controller.ControllerIndex.forwordStudent() 
+2018-06-30 15:58:17,879 耗时：1945 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/student/{id}],methods=[GET]}" onto public java.lang.String controller.ControllerIndex.addStudent(org.springframework.ui.Model,int) 
+2018-06-30 15:58:17,880 耗时：1946 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/stu],methods=[POST]}" onto public java.lang.String controller.ControllerIndex.addStudent(pojo.Student) 
+2018-06-30 15:58:17,880 耗时：1946 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/stu/{id}],methods=[DELETE]}" onto public java.lang.String controller.ControllerIndex.deleteStu(int) 
+2018-06-30 15:58:17,882 耗时：1948 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/sendMail/{verifyCode}/{id}],methods=[GET]}" onto public boolean controller.MailController.verifyCode(java.lang.String,java.lang.Long) 
+2018-06-30 15:58:17,887 耗时：1953 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/sendMail],methods=[POST]}" onto public java.lang.Boolean controller.MailController.sendMail(javax.servlet.http.HttpServletRequest,java.lang.String,int) 
+2018-06-30 15:58:17,894 耗时：1960 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/updaImage],methods=[POST]}" onto public java.lang.String controller.QiniuController.updaImage(org.springframework.web.multipart.MultipartFile,int) throws java.lang.Exception 
+2018-06-30 15:58:17,897 耗时：1963 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/signin],methods=[POST]}" onto public net.sf.json.JSONObject controller.SmsController.register(java.lang.String,pojo.Student) 
+2018-06-30 15:58:17,898 耗时：1964 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/message],methods=[GET]}" onto public void controller.SmsController.message(java.lang.String) 
+2018-06-30 15:58:17,901 耗时：1967 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/signup],methods=[GET]}" onto public java.lang.String controller.SmsController.signup() 
+2018-06-30 15:58:18,362 耗时：2428 日志来自：.annotation.RequestMappingHandlerAdapter 日志类型: INFO  日志内容：Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Jun 30 15:58:16 CST 2018]; root of context hierarchy 
+2018-06-30 15:58:18,425 耗时：2491 日志来自：.annotation.RequestMappingHandlerAdapter 日志类型: INFO  日志内容：Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Jun 30 15:58:16 CST 2018]; root of context hierarchy 
+2018-06-30 15:58:18,613 耗时：2679 日志来自：web.context.ContextLoader                日志类型: INFO  日志内容：Root WebApplicationContext: initialization completed in 2664 ms 
+2018-06-30 15:58:18,869 耗时：2935 日志来自：web.servlet.DispatcherServlet            日志类型: INFO  日志内容：FrameworkServlet 'tile': initialization started 
+2018-06-30 15:58:18,876 耗时：2942 日志来自：context.support.XmlWebApplicationContext 日志类型: INFO  日志内容：Refreshing WebApplicationContext for namespace 'tile-servlet': startup date [Sat Jun 30 15:58:18 CST 2018]; parent: Root WebApplicationContext 
+2018-06-30 15:58:18,877 耗时：2943 日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [servlet.xml] 
+2018-06-30 15:58:18,965 耗时：3031 日志来自：ion.AutowiredAnnotationBeanPostProcessor 日志类型: INFO  日志内容：JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-30 15:58:19,041 耗时：3107 日志来自：servlet.handler.SimpleUrlHandlerMapping  日志类型: INFO  日志内容：Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0' 
+2018-06-30 15:58:19,370 耗时：3436 日志来自：web.servlet.DispatcherServlet            日志类型: INFO  日志内容：FrameworkServlet 'tile': initialization completed in 501 ms 
+2018-06-30 15:59:01,959 耗时：46025 日志来自：service.SmsServiceImpl                   日志类型: INFO  日志内容：telephone17607087215 
+2018-06-30 15:59:02,014 耗时：46080 日志来自：rest.sdk.CCPRestSmsSDK                   日志类型: INFO  日志内容：Sat Jun 30 15:59:02 CST 2018 sendTemplateSMS url = https://sandboxapp.cloopen.com:8883/2013-12-26/Accounts/8a216da863cde6f90163dd8cd933085f/SMS/TemplateSMS?sig=9D820118B461E40C8C9D7D4AD1B5FBFF 
+2018-06-30 15:59:02,054 耗时：46120 日志来自：rest.sdk.CCPRestSmsSDK                   日志类型: INFO  日志内容：Sat Jun 30 15:59:02 CST 2018 sendTemplateSMS Request body =  {"appId":"8a216da863cde6f90163dd8cd9920866","to":"17607087215","templateId":"1","datas":["3081","5"]} 
+2018-06-30 15:59:38,531 耗时：82597 日志来自：service.SmsServiceImpl                   日志类型: INFO  日志内容：telephone17607087215 
+2018-06-30 15:59:38,547 耗时：82613 日志来自：rest.sdk.CCPRestSmsSDK                   日志类型: INFO  日志内容：Sat Jun 30 15:59:38 CST 2018 sendTemplateSMS url = https://sandboxapp.cloopen.com:8883/2013-12-26/Accounts/8a216da863cde6f90163dd8cd933085f/SMS/TemplateSMS?sig=E9CA86BDBF793739F5BABD69981F38D5 
+2018-06-30 15:59:38,553 耗时：82619 日志来自：rest.sdk.CCPRestSmsSDK                   日志类型: INFO  日志内容：Sat Jun 30 15:59:38 CST 2018 sendTemplateSMS Request body =  {"appId":"8a216da863cde6f90163dd8cd9920866","to":"17607087215","templateId":"1","datas":["5851","5"]} 
+2018-06-30 15:59:39,337 耗时：83403 日志来自：rest.sdk.CCPRestSmsSDK                   日志类型: INFO  日志内容：Sat Jun 30 15:59:39 CST 2018 sendTemplateSMS response body = {"statusCode":"000000","templateSMS":{"smsMessageSid":"c0ae49dcfb52495887e60d13f54c5c9b","dateCreated":"20180630155938"}} 
+2018-06-30 16:03:02,435 耗时：0 日志来自：web.context.ContextLoader                日志类型: INFO  日志内容：Root WebApplicationContext: initialization started 
+2018-06-30 16:03:02,633 耗时：198 日志来自：context.support.XmlWebApplicationContext 日志类型: INFO  日志内容：Refreshing Root WebApplicationContext: startup date [Sat Jun 30 16:03:02 CST 2018]; root of context hierarchy 
+2018-06-30 16:03:02,705 耗时：270 日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [application.xml] 
+2018-06-30 16:03:03,127 耗时：692 日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [qiniu.xml] 
+2018-06-30 16:03:03,488 耗时：1053 日志来自：.config.PreferencesPlaceholderConfigurer 日志类型: INFO  日志内容：Loading properties file from class path resource [jdbc.properties] 
+2018-06-30 16:03:03,500 耗时：1065 日志来自：ion.AutowiredAnnotationBeanPostProcessor 日志类型: INFO  日志内容：JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-30 16:03:03,626 耗时：1191 日志来自：jdbc.datasource.DriverManagerDataSource  日志类型: INFO  日志内容：Loaded JDBC driver: com.mysql.jdbc.Driver 
+2018-06-30 16:03:44,547 耗时：1 日志来自：web.context.ContextLoader                日志类型: INFO  日志内容：Root WebApplicationContext: initialization started 
+2018-06-30 16:03:44,712 耗时：166 日志来自：context.support.XmlWebApplicationContext 日志类型: INFO  日志内容：Refreshing Root WebApplicationContext: startup date [Sat Jun 30 16:03:44 CST 2018]; root of context hierarchy 
+2018-06-30 16:03:44,758 耗时：212 日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [application.xml] 
+2018-06-30 16:03:45,029 耗时：483 日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [qiniu.xml] 
+2018-06-30 16:03:45,330 耗时：784 日志来自：.config.PreferencesPlaceholderConfigurer 日志类型: INFO  日志内容：Loading properties file from class path resource [jdbc.properties] 
+2018-06-30 16:03:45,345 耗时：799 日志来自：ion.AutowiredAnnotationBeanPostProcessor 日志类型: INFO  日志内容：JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-30 16:03:45,462 耗时：916 日志来自：jdbc.datasource.DriverManagerDataSource  日志类型: INFO  日志内容：Loaded JDBC driver: com.mysql.jdbc.Driver 
+2018-06-30 16:03:46,146 耗时：1600 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/index]}" onto public java.lang.String controller.ControllerIndex.index(org.springframework.ui.Model) 
+2018-06-30 16:03:46,148 耗时：1602 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/stu],methods=[POST]}" onto public java.lang.String controller.ControllerIndex.addStudent(pojo.Student) 
+2018-06-30 16:03:46,148 耗时：1602 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/student/{id}],methods=[GET]}" onto public java.lang.String controller.ControllerIndex.addStudent(org.springframework.ui.Model,int) 
+2018-06-30 16:03:46,148 耗时：1602 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/stu/{id}],methods=[DELETE]}" onto public java.lang.String controller.ControllerIndex.deleteStu(int) 
+2018-06-30 16:03:46,149 耗时：1603 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/stu],methods=[GET]}" onto public java.lang.String controller.ControllerIndex.forwordStudent() 
+2018-06-30 16:03:46,150 耗时：1604 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/sendMail],methods=[POST]}" onto public java.lang.Boolean controller.MailController.sendMail(javax.servlet.http.HttpServletRequest,java.lang.String,int) 
+2018-06-30 16:03:46,151 耗时：1605 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/sendMail/{verifyCode}/{id}],methods=[GET]}" onto public boolean controller.MailController.verifyCode(java.lang.String,java.lang.Long) 
+2018-06-30 16:03:46,152 耗时：1606 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/updaImage],methods=[POST]}" onto public java.lang.String controller.QiniuController.updaImage(org.springframework.web.multipart.MultipartFile,int) throws java.lang.Exception 
+2018-06-30 16:03:46,153 耗时：1607 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/signin],methods=[POST]}" onto public net.sf.json.JSONObject controller.SmsController.register(java.lang.String,pojo.Student) 
+2018-06-30 16:03:46,154 耗时：1608 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/message],methods=[GET]}" onto public void controller.SmsController.message(java.lang.String) 
+2018-06-30 16:03:46,154 耗时：1608 日志来自：.annotation.RequestMappingHandlerMapping 日志类型: INFO  日志内容：Mapped "{[/signup],methods=[GET]}" onto public java.lang.String controller.SmsController.signup() 
+2018-06-30 16:03:46,598 耗时：2052 日志来自：.annotation.RequestMappingHandlerAdapter 日志类型: INFO  日志内容：Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Jun 30 16:03:44 CST 2018]; root of context hierarchy 
+2018-06-30 16:03:46,680 耗时：2134 日志来自：.annotation.RequestMappingHandlerAdapter 日志类型: INFO  日志内容：Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Sat Jun 30 16:03:44 CST 2018]; root of context hierarchy 
+2018-06-30 16:03:46,869 耗时：2323 日志来自：web.context.ContextLoader                日志类型: INFO  日志内容：Root WebApplicationContext: initialization completed in 2318 ms 
+2018-06-30 16:03:47,069 耗时：2523 日志来自：web.servlet.DispatcherServlet            日志类型: INFO  日志内容：FrameworkServlet 'tile': initialization started 
+2018-06-30 16:03:47,076 耗时：2530 日志来自：context.support.XmlWebApplicationContext 日志类型: INFO  日志内容：Refreshing WebApplicationContext for namespace 'tile-servlet': startup date [Sat Jun 30 16:03:47 CST 2018]; parent: Root WebApplicationContext 
+2018-06-30 16:03:47,078 耗时：2532 日志来自：factory.xml.XmlBeanDefinitionReader      日志类型: INFO  日志内容：Loading XML bean definitions from class path resource [servlet.xml] 
+2018-06-30 16:03:47,185 耗时：2639 日志来自：ion.AutowiredAnnotationBeanPostProcessor 日志类型: INFO  日志内容：JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-30 16:03:47,300 耗时：2754 日志来自：servlet.handler.SimpleUrlHandlerMapping  日志类型: INFO  日志内容：Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0' 
+2018-06-30 16:03:47,753 耗时：3207 日志来自：web.servlet.DispatcherServlet            日志类型: INFO  日志内容：FrameworkServlet 'tile': initialization completed in 683 ms 
+2018-06-30 16:05:43,524 耗时：118978 日志来自：service.SmsServiceImpl                   日志类型: INFO  日志内容：telephone17607087215 
+2018-06-30 16:05:43,600 耗时：119054 日志来自：rest.sdk.CCPRestSmsSDK                   日志类型: INFO  日志内容：Sat Jun 30 16:05:43 CST 2018 sendTemplateSMS url = https://sandboxapp.cloopen.com:8883/2013-12-26/Accounts/8a216da863cde6f90163dd8cd933085f/SMS/TemplateSMS?sig=1C794BA3C0983EFD7A230428380196E1 
+2018-06-30 16:05:43,678 耗时：119132 日志来自：rest.sdk.CCPRestSmsSDK                   日志类型: INFO  日志内容：Sat Jun 30 16:05:43 CST 2018 sendTemplateSMS Request body =  {"appId":"8a216da863cde6f90163dd8cd9920866","to":"17607087215","templateId":"1","datas":["7202","5"]} 
+2018-06-30 16:05:49,842 耗时：125296 日志来自：rest.sdk.CCPRestSmsSDK                   日志类型: INFO  日志内容：Sat Jun 30 16:05:49 CST 2018 sendTemplateSMS response body = {"statusCode":"000000","templateSMS":{"smsMessageSid":"f8a1ad71711f45c9af42e0c6f869a01d","dateCreated":"20180630160549"}} 
+2018-06-30 16:06:59,235 耗时：194689 日志来自：service.SmsServiceImpl                   日志类型: INFO  日志内容：用户输入的值=7202 
+2018-06-30 16:06:59,236 耗时：194690 日志来自：service.SmsServiceImpl                   日志类型: INFO  日志内容：验证码=7202 
